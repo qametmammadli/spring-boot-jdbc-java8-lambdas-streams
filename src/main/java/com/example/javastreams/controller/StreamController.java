@@ -23,7 +23,7 @@ public class StreamController {
         this.streamService = streamService;
     }
 
-    @GetMapping("max-salary-in-each-month")
+    @GetMapping("max-salary-in-each-job")
     public void maxSalaryInEachJob(){
         System.out.println("\nMax Employee salary in each job");
 
